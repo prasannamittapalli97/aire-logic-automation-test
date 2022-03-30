@@ -11,12 +11,6 @@ import static com.aire.logic.utils.WebDriverHelper.waitForWebElementTobePresent;
 
 public class HomePage {
 
-    @FindBy(id = "vrm-input")
-    private WebElement enterRegNumber;
-
-    @FindBy(xpath = "//button[text()='Free Car Check']")
-    private WebElement freeCarCheck;
-
     @FindBy(xpath = "//input[@name='name']")
     private WebElement nameToStart;
 
